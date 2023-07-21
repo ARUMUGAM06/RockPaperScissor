@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    
+}
+.icon{
+    background-color: rgb(25, 25, 25);
+    border: none;
+}
+.title{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.image{
+    height: 50px;
+}
+.pick{
+    
+    background-color: rgb(25, 25, 25);
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin:10px;
+    cursor: pointer;
+}
+.pick:active{
+    background-color: rgb(10, 10, 10);
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin:10px;
+    cursor: pointer;
+}
+.picks{
+    height: 50px;
+    
+}
+.move-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+.winning{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.reset{
+    
+    background-color: rgb(25, 25, 25);
+    color: rgb(238, 255, 0);
+    border: 1px solid rgb(238, 255, 0);
+    border-radius: 18px;
+    padding: 15px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: -50px;
+}
+.reset:hover{
+    background-color: rgb(238, 255, 0);
+    color: rgb(25, 25, 25);
+    border: 1px solid rgb(25, 25, 25);
+    border-radius: 18px;
+    padding: 15px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.4s;
+}
+.reset:active{
+    background-color: rgb(198, 212, 0);
+    color: rgb(25, 25, 25);
+    border: 1px solid white;
+    border-radius: 18px;
+    padding: 15px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.icons{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.scoreBoard{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
